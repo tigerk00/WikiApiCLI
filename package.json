@@ -1,0 +1,36 @@
+{
+  "name": "wiki-api-study-project",
+  "version": "1.0.1",
+  "description": "My first api study project on node.js",
+  "main": "wikiapi.js",
+  "bin": {
+    "wikiapi": "wikiapi.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node wikiapi.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "help": "node wikiapi.js --h"
+  },
+  "keywords": [
+    "wikiapi",
+    "api",
+    "first",
+    "project"
+  ],
+  "author": "tigerk00",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tigerk00"
+  },
+  "bugs": {
+    "email": "kostia.lagoda@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1",
+    "yargs": "^17.3.1"
+  }
+}
